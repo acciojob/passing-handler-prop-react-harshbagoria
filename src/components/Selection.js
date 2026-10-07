@@ -7,7 +7,9 @@ const Selection = (props) => {
     background: ""
   });
 
-  applyColor(setStyle);
+    const updateSelectionStyle = (nextBackground) =>{
+        setStyle(nextBackground);
+    }
 
   return (
     <div
